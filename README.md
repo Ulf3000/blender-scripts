@@ -2,7 +2,7 @@
 various scripts for blender
 
 # sort_npanel.py 
-Helper script to trigger update on the simple tabs addon  https://chippwalters.gumroad.com/l/simpletabs everytime the workspace is switched. 
+Helper script to trigger update on the simple tabs addon  https://chippwalters.gumroad.com/l/simpletabs everytime the workspace/mode/active object is changed. 
 Put this in your blender scripts startup folder. 
 For best measure you should add a script folder to blender preferences. That way you dont have to do this for every new blender version and works across the board. 
 
