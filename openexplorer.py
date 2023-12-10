@@ -1,5 +1,6 @@
 bl_info = {
     "name": "Open Explorer",
+    "description": "Adds a button to open the render output folder in Windows Explorer",
     "blender": (2, 80, 0),
     "category": "Render",
 }
