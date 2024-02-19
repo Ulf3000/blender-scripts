@@ -10,7 +10,7 @@ For best measure you should add a script folder to blender preferences. That way
 
 
 
-# sort_npanel.py 
+# openexplorer.py
 Adds a button to open the render output folder in Windows Explorer
 
 ![grafik](https://github.com/Ulf3000/blender-scripts/assets/10765339/0122a246-be47-48e0-b47b-cee10542686e)
