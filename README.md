@@ -14,3 +14,19 @@ For best measure you should add a script folder to blender preferences. That way
 Adds a button to open the render output folder in Windows Explorer
 
 ![grafik](https://github.com/Ulf3000/blender-scripts/assets/10765339/0122a246-be47-48e0-b47b-cee10542686e)
+
+
+# preventSleep.py
+
+prevents the pc and connected displays to go into standby/sleep mode if blender is playing. 
+Now you can watch your animation in loop or your long video scene in the videoeditor and still keep a reasonable powermanagement.
+
+Put this in your blender scripts startup folder. 
+
+Works only on windows for now. 
+
+For Linux and MacOS similar apis should exist, replace the line:
+
+ctypes.windll.kernel32.SetThreadExecutionState(ES_DISPLAY_REQUIRED) # reset the windows standby timer
+
+with whatever correct api call or a simple mousemove or shift press(anything which prevents the displays going to sleep) 
